@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.black{
+    background-color: rgb(241, 253, 10);
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #eaedf1;
+}
+
+:root{
+    --primary-color: #f02828;
+}
+
+.container{
+    padding: 0;
+}
+
+/* header */
+
+header{
+    background-color: rgb(46, 46, 228);
+}
+
+.nav-container{
+    margin: 0;
+    padding: 0;
+}
+.nav-container ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.nav-container .logo img{
+    width: 75px;
+}
+header .nav-container .logo{
+    min-width: 137px;
+    margin-left: 100px;
+    cursor: default;
+}
+header .search{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+header .search .search-container{
+    width: 540px;
+    height: 36px;
+    background-color: #eaedf1;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgb(0, 0,0 / 26px);
+    display: flex;
+
+}
+header .search .search-container input{
+    background-color: #eaedf1;
+    border: 4px solid #eaedf1;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+header .search .search-container i{
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+header .nav-container .login{
+    height: 100%;
+    margin: 0 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+header .become-seller{
+    height: 100%;
+    margin: 0 20px;
+    color: white;
+    font-size: 16px ;
+    font-weight: 500;
+    cursor: pointer;
+}
+header .become-seller:hover{
+    background-color: #4338e1;
+}
+
+header .more{
+    color: white;
+    padding: 40px;
+}
+
+header .more svg{
+    margin-left: 8px;
+    /* rotate: 270deg; */
+}
+header .more-list{
+    display: none;
+}
+
+header .more:hover .more-list{
+    display: block;
+    position: absolute;
+    background-color: white;
+    color: rgb(1, 1, 1);
+    margin-left: -25px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px grey;
+    width: 200px;
+}
+header .more:hover  .zZ3yfL{
+    rotate: 90deg;
+}
+header .more-list ul li{
+    display: block;
+    cursor: pointer;
+}
+
+header .more-list ul li:hover{
+    background-color: rgb(225, 222, 222);
+}
+
+
+
+header .cart{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+header .cart svg{
+    height: 100%;
+    margin-right: 8px;
+}
+
+/* section 1 */
+
+.section-1{
+    width: 100%;
+    height: 122px;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 /16%);
+}
+
+.section-1-container{
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-1-item{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+.section-1-item img{
+   width: 64px;
+   height: 64px;
+}
+
+/* section-2 */
+
+.section-2-container{
+    margin-top: 16px;
+    height: 285px;
+    width: 99vw;
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.section-2-image{
+    height: 285px;
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.section-2-container a{
+    position: absolute;
+    height: 100px;
+    width: 40px;
+    background-color: #fdfdfd;
+    margin: 2px;
+    padding-top: 37px;
+    padding-left: 10px;
+    align-self: center;
+    border-color: #fdfdfd;
+}
+.section-2-container a img{
+    align-self: center;
+}
+
+.section-2-container #right{
+    position: absolute;
+    width: 40px;
+    height: 90px;
+    margin-top: 88px;
+    margin-right: 4px;
+    margin-left: 1487px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #d2d0d0;
+}
+
+.section-2-container #left{
+    position: absolute;
+    width: 35px;
+    height: 90px;
+    margin-top: 88px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #d2d0d0;
+}
+
+/* section-3 */
+
+.section-3-container{
+    margin: 10px;
+    height: 118px;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/2848/246/image/d56a3ed6d200038a.jpg?q=50);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat0;
+}
+
+/* section-4 */
+
+.section-4-container{
+    height: 362px;
+    margin-top: 8px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-4-offers{
+    width: 230px;
+    height: 100%;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/1e483f8045ec13a8.jpg?q=90);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.section-4-offers-viewall{
+    margin-top: 132px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-4-offers-viewall button{
+    margin-top: 24px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    padding: 10px 20px;
+    font-size: 14px ;
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.section-4-list{
+    height: 100%;
+    width: 1291px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.section-4-list img{
+    width: 250px;
+    height: 275px;
+}
+
+.section-4-item {
+    width: 232px;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-4-item-head{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.section-4-item-price {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #388e3c;
+}
+
+.section-4-item-eplore {
+    opacity: 0.6;
+    margin-top: 12px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+
+.section-5-container {
+    margin-top: 8px;
+    display: flex; 
+     justify-content: space-between;
+}
+
+.section-5-container img{
+    width: 33%;
+}
+
+footer{
+    margin-top: 26px;
+    background-color: white;
+    padding: 26px;
+    text-align: center;
+    font-size: 14px;
+    color: #8787;
+}
+
